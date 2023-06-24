@@ -1,9 +1,9 @@
 #!/bin/bash
 
 #repo addresses
-aasdkRepo="https://github.com/OpenDsh/aasdk"
+aasdkRepo="https://github.com/Demon000/aasdk"
 gstreamerRepo="https://github.com/GStreamer/qt-gstreamer"
-openautoRepo="https://github.com/openDsh/openauto"
+openautoRepo="https://github.com/Demon000/openauto"
 h264bitstreamRepo="https://github.com/aizvorski/h264bitstream"
 
 #Help text
