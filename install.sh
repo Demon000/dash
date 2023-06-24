@@ -312,17 +312,6 @@ else
     exit 1
   fi
 
-  #begin make install
-  sudo make install
-
-  if [[ $? -eq 0 ]]
-    then
-    echo -e Aasdk installed ok'\n'
-    echo
-  else
-    echo Aasdk install failed with code $?
-    exit 1
-  fi
   cd $script_path
 fi
 
