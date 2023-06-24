@@ -532,15 +532,6 @@ else
     exit 1
   fi
 
-  #run make install
-  echo Beginning make install
-  sudo make install
-  if [[ $? -eq 0 ]]; then
-    echo -e Openauto installed ok'\n'
-  else
-    echo Openauto make install failed with error code $?
-    exit 1
-  fi
   cd $script_path
 fi
 
