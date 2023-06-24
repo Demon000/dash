@@ -515,7 +515,7 @@ else
   cd build
 
   echo Beginning openauto cmake
-  cmake ${installArgs} -DGST_BUILD=true ../
+  cmake ${installArgs} -DGST_BUILD=true -DEXTRA_LINK_DIRS=../aasdk/lib ../
   if [[ $? -eq 0 ]]; then
     echo -e Openauto CMake OK'\n'
   else
